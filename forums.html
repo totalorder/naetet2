@@ -1,0 +1,8 @@
+
+<ul class="list-unstyled">
+    <li class="list-group-item list-item active naetet-logo">
+    </li>
+    {% for forum in forums %}
+        <li class="list-group-item list-item{% if forum.S_UNREAD_FORUM %} unread{% endif %}"><a href="/forum/{{ forum.FORUM_ID }}" data-path>{{ forum.FORUM_NAME }}</a></li>
+    {% endfor %}
+</ul>

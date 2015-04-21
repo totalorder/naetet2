@@ -1,0 +1,13 @@
+{% if info.previous_page >= 0 %}
+    <li class="list-group-item post">
+        <a href="#" class="glyphicon glyphicon-plus-sign more-posts"
+           onclick="on_more_posts()"
+           data-previous-page="{{ info.previous_page }}"
+           data-forum-id="{{ info.FORUM_ID }}"
+           data-topic-id="{{ info.TOPIC_ID }}">
+        </a>
+    </li>
+{% endif %}
+{% for post in posts %}
+    <li class="list-group-item post">{{ post.MESSAGE | safe }} <span class="post-info"><span class="username">{{ post.POST_AUTHOR }}</span> ({{ post.post_date }})</span></li>
+{% endfor %}

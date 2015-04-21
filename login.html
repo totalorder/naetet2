@@ -1,0 +1,12 @@
+<img class="logo" src="/naetet.png">
+<div class="padded-box">
+    <h4>Login</h4>
+    {% if failed %}
+        <p class="bg-danger">Login failed. Try again</p>
+    {% endif %}
+    <form onsubmit="on_login(); return false;" >
+        <input type="text" id="username" class="form-control" placeholder="Username">
+        <input type="password" id="password" class="form-control" placeholder="Password">
+        <input type="submit" class="btn btn-success" value="Login">
+    </form>
+</div>

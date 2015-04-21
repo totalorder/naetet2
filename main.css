@@ -1,0 +1,144 @@
+/*body {*/
+    /*padding-top: 50px;*/
+/*}*/
+
+.container {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+}
+
+.navbar-header {
+    float: none;
+}
+.navbar-left,.navbar-right {
+    float: none !important;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.collapse.in{
+    display:block !important;
+}
+
+.list-item {
+    font-size: x-large;
+}
+
+.list-item a {
+    color: #44658a;
+}
+.list-group-item {
+    overflow: auto;
+    border-radius: inherit !important;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-image: none;
+    border: 0;
+    background-color: #4682b4;
+    height: 61px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.list-group-item.active + li {
+    padding-top: 70px;
+}
+
+.list-group-item.active.naetet-logo {
+    background-color: #4682b4;
+    background-image: url(naetet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.post {
+}
+
+.more-posts {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 200%;
+    width: 20px;
+}
+
+.post-info {
+    float: right;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.forum-name-small {
+    font-size: small;
+    margin-bottom: -5px;
+}
+
+.forum-name {
+    margin-top: 3px;
+}
+
+.logo {
+    width: 228px;
+    margin: auto;
+    display: block;
+    height: 69px;
+}
+
+.padded-box {
+    padding: 15px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.logout-button {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+.back {
+    float: left;
+    font-size: 190%;
+    color: #FFFFFF !important;
+    margin-top: -5px;
+    text-decoration: none !important;
+}
+
+p {
+    padding: 15px;
+}
+
+.unread a {
+    color: #74091f;
+}

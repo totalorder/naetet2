@@ -1,0 +1,9 @@
+<ul class="list-unstyled">
+    <li class="list-group-item list-item active">
+        <a class="back glyphicon glyphicon-chevron-left" href="/" data-path></a>
+        <div class="forum-name">{{ forum.forum_name }}</div>
+    </li>
+    {% for topic in topics %}
+        <li class="list-group-item list-item{% if topic.S_UNREAD_TOPIC %} unread{% endif %}"><a href="/forum/{{ forum.forum_id}}/topic/{{ topic.TOPIC_ID}}" data-path>{{ topic.TOPIC_TITLE }}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,8 @@
+<ul class="list-unstyled">
+    <li class="list-group-item list-item active">
+        <a href="/forum/{{ info.FORUM_ID }}" class="back glyphicon glyphicon-chevron-left" data-path></a>
+        <div class="forum-name-small">{{ info.FORUM_NAME }}</div>
+        <div>{{ info.TOPIC_TITLE }}</div>
+        {% include 'posts.html' %}
+    </li>
+</ul>
